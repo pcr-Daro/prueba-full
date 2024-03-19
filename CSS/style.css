@@ -1,0 +1,81 @@
+    body {
+        margin: 20px;
+        background-image: url("logofondo.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    h1 {
+        color: rgb(252, 254, 254);
+        padding: 10px;
+        border-radius: 5%;
+        background-color: rgb(237, 18, 18);
+        text-align: center;
+    }
+    
+    h2 {
+        padding: 2PX;
+        background-color: aqua;
+        color: black;
+        font: oblique bold 120% cursive;
+    }
+    
+    .nav1 img {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        border-radius: 202px;
+        border: 5px solid rgb(200, 119, 247);
+    }
+    
+    .ca {
+        float: left;
+    }
+    
+    .ch {
+        float: left;
+    }
+    
+    .la {
+        float: left;
+    }
+    
+    .le {
+        float: left;
+    }
+    
+    .wa {
+        float: left;
+    }
+    
+    .eva {
+        float: left;
+    }
+    
+    .list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 400px;
+        position: absolute;
+        bottom: 0;
+        color: rgb(255, 255, 255);
+    }
+    
+    .eva {
+        float: left;
+    }
+    
+    li {
+        padding: 10px;
+        border-radius: 5%;
+        background-color: rgb(237, 18, 18);
+    }
+    
+    li:hover {
+        color: #ff0909;
+        background-color: #fffefe;
+        font-style: oblique;
+    }
